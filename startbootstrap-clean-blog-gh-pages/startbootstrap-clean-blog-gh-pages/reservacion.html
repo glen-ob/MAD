@@ -14,6 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="registro.css" rel="stylesheet" />
+
     </head>
     <body>
         <!-- Navigation-->
@@ -35,30 +37,115 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/about-bg.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/azul.png')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="page-heading">
-                            <h1>About Me</h1>
-                            <span class="subheading">This is what I do.</span>
+                        <div class="site-heading">
+                            <h1>Reservar</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Main Content-->
-        <main class="mb-4">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
-                    </div>
-                </div>
+
+
+
+
+<section class="section contact-section" id="next">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+          
+          <form action="#" method="post" class="bg-white p-md-5 p-4 mb-5 border">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label class="text-black font-weight-bold" for="name">Nombre Completo</label>
+                <input type="text" id="name" class="form-control ">
+              </div>
+              <div class="col-md-6 form-group">
+                <label class="text-black font-weight-bold" for="phone">Numero de telefono</label>
+                <input type="text" id="phone" class="form-control ">
+              </div>
             </div>
-        </main>
+        
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label class="text-black font-weight-bold" for="email">Correo Electronico</label>
+                <input type="email" id="email" class="form-control ">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label class="text-black font-weight-bold" for="checkin_date">Dia Check In</label>
+                <input type="text" id="checkin_date" class="form-control">
+              </div>
+              <div class="col-md-6 form-group">
+                <label class="text-black font-weight-bold" for="checkout_date">Dia Check Out</label>
+                <input type="text" id="checkout_date" class="form-control">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="adults" class="font-weight-bold text-black">Adultos</label>
+                <div class="field-icon-wrap">
+                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                  <select name="" id="adults" class="form-control">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 form-group">
+                <label for="children" class="font-weight-bold text-black">Niños</label>
+                <div class="field-icon-wrap">
+                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                  <select name="" id="children" class="form-control">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4+</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div class="row mb-4">
+              <div class="col-md-12 form-group">
+                <label class="text-black font-weight-bold" for="message">Notas</label>
+                <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="submit" value="Reservar" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <div class="col-md-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="row">
+            <div class="col-md-10 ml-auto contact-info">
+              <p><span class="d-block">Domicilio:</span> <span class="text-black"> 98 West 21th Street, Gatita 721 Nuevo York MX 10016</span></p>
+              <p><span class="d-block">Número:</span> <span class="text-black"> (+81) 1435 3533</span></p>
+              <p><span class="d-block">Correo:</span> <span class="text-black"> info@hotelcute.com</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
@@ -101,3 +188,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
